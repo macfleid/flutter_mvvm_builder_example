@@ -59,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage> implements CounterPageView {
             ),
           ),
           floatingActionButton: FloatingActionButton(
-            onPressed: () => presenter.incrementCounter(),
+            onPressed: presenter.incrementCounter,
             tooltip: 'Increment',
             child: Icon(Icons.add),
           ),
